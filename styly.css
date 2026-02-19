@@ -1,0 +1,30 @@
+:root {
+    --color1: rgb(73, 75, 75);
+    --color2: rgb(14, 81, 53);
+    --color3: rgb(13, 146, 99);
+    --color4: rgb(74, 186, 145);
+    --color5: rgb(212, 206, 70);
+}
+
+body {
+    background-color: var(--color3);
+}
+
+#title {
+    color: var(--color2);
+    font-family: zelda_font;
+}
+
+#description {
+    color: var(--color5);
+    font-family: zelda_font;
+}
+
+@font-face {
+    font-family: zelda_font;
+    src: url(HyliaSerifBeta-Regular.otf); 
+}
+@font-face {
+    font-family: wild_breath_font;
+    src: url(TheWildBreathOfZelda-15Lv.ttf);
+}
